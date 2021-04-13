@@ -1,0 +1,153 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2007-2014 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+%Modifired: Justin McLennan
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Justin McLennan}  & 778.229.3503 (cell)\\
+3958 Wood Way &  Justin.Mcle@gmail.com \\
+Port Coquitlam, BC  V3B 4B4& www.linkedin.com/in/justin-l-mclennan\\
+\end{tabular*}
+\\
+
+\vspace{0.2in}
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+C/C{}\verb!++!, C\#, Java, Lua, Groovy, SQL, Json, JavaScript, Python
+\item[Operating Systems:]
+Linux, Windows
+\item[Tools:]
+Jira, Visual Studio, Unity, Oracle SQL, .NET Framework, Jenkins
+\item[Transferable Skills:]
+Excellent troubleshooting and debugging ability. Strong leadership, communication and collaboration skills.
+\end{description}
+\vspace{0.1in}
+\resheading{Technical Experience}
+\begin{description}
+\item    
+    \ressubheading{EA Vancouver/Keywords Studio}{FIFA \& NHL 20/21/22}{Associate Software Engineer}{Oct. 2019 - Present}
+	\begin{itemize}
+	    \item{Maintained and developed automated scripts for projects using C\#.}
+	    \item{Collaborated with development and cross-functional teams to troubleshoot and perform root cause analysis.}
+	    \item{Assisted with the designing, coding and execution of automated test scripts using Jenkins and Groovy.}
+        \item{Maintained documentation of test results to assist in debugging and modification of software.}
+        \item{Coordinated with scrum team and development counterparts in overseeing bug tracking, test prioritization, test automation and release.}
+        \item{Performed peer code reviews.}
+    \end{itemize}
+\item    
+    \ressubheading{EA Vancouver/Keywords Studio}{NHL 19/20}{Development Support}{Aug. 2018 - Oct. 2019}
+	\begin{itemize}
+        \item{Created and managed test plans specific to the Hockey Ultimate Team and Live areas.}
+        \item{Assessed and progressed Issues flagged through automation.}
+        \item{Coordinated with team members daily on regression, smoke testing and checklist completion to verify stability and identify issues.}
+        \item{Monitored, escalated and regressed live issues appropriately.}
+        \item{Assisted Producers and Developers with designing improvements and game features.}
+    \end{itemize}
+
+\item
+	\ressubheading{Panoramic Software, Inc.}{Langley, BC}{Software Developer - Practicum}{Apr. 2016 - Aug. 2016}
+	\begin{itemize}
+    	\item{Created a speech recognition library using the Cortana API.}
+		\item{Translated a Universal Windows Platform Calculator Application to a Xamarin Application.}
+        \item{Improved and maintained our graphics library.}
+	\end{itemize}
+\item
+	\ressubheading{Project: City Simulator}{British Columbia Institute of Technology}{Server Back-end Team Lead/Git Repo Admin}{Sep. 2017 - Dec. 2017}
+	\begin{itemize}
+        \item{Built using \emph{.Net Framework} and \emph{Unity} with working \emph{HoloLens} support.}
+        \item{Experienced an Agile development cycle with daily scrum meetings.}
+        \item{Delegated tasks to appropriate team members, speeding up incident handling.}
+        \item{A client-server time based simulation with procedural generated expansion and a basic supply \& demand economy.}
+    \end{itemize}
+\end{description}
+\pagebreak
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Justin McLennan}  & 778.229.3503 (cell)\\
+3958 Wood Way &  Justin.McLe@gmail.com \\
+Port Coquitlam, BC  V3B 4B4& https://github.com/J-O-K-E-R\\
+\end{tabular*}
+\\
+
+\vspace{0.2in}
+\resheading{Technical Experience}
+\begin{description}
+\item
+    \ressubheading{Project: Jabber BCIT}{British Columbia Institute of Technology}{Front-End Developer}{Sep. 2016 - Dec. 2016}
+	\begin{itemize}
+		\item{A social media application for BCIT using a Model-View-Controller architecture.}
+        \item{Used \emph{Jquery} to create the front-end of our application.}
+        \item{Created using an \emph{Agile} development cycle with daily scrum meetings.}
+	\end{itemize}
+\end{description}
+\resheading{Education}
+\begin{description}
+\item
+	\ressubheading{British Columbia Institute of Technology}{Burnaby, BC}{Associate\textsc{\char13}s Degree (Diploma) Computer Systems Technology}{Sep. 2014 - Dec. 2017}
+    \begin{itemize}
+    	\item{Designated class representative}
+	\end{itemize}
+\end{description}
+\vspace{0.2in}
+\resheading{Non-Technical Work Experience}
+\begin{description}
+\item
+    \ressubheading{The Home Depot}{Port Coquitlam, BC}{Lot Associate/ Order Picker}{Jun. 2014 - Aug. 2018}
+	\begin{itemize}
+    	\item{Processed, packaged and shipped orders accurately.}
+		\item{Handled conflict situations and found solutions to ensure positive interactions with customers.}
+        
+	\end{itemize}
+\item
+	\ressubheading{Walmart}{Port Coquitlam, BC}{Store Standards}{Jul. 2012 - Feb. 2014}
+	\begin{itemize}
+		\item{Maintained a safe clean work environment; Storefront and Parking lot.}
+        \item{Provided training and assistance to less experienced employees as required.}
+	\end{itemize}
+
+\end{description}
+
+\vspace{0.1in}
+\resheading{Interests}
+\begin{itemize}
+	\item{\textbf{Playing Board Games or D\&D}}
+    \item{\textbf{Actively involved in Lacrosse, Ball Hockey and Boxing}}
+\end{itemize}
+
+\end{document}
